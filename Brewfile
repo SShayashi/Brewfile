@@ -47,5 +47,21 @@ appstore 485812721 TweetDeck
 appstore 497799835 Xcode
 appstore 420332190 iSnap
 
+# Main tap repository for caskroom/cask
+tap caskroom/cask
+# Apps installed directly instead of by Cask in caskroom/cask
+cask install android-file-transfer #/Applications/Android File Transfer.app
+cask install android-studio #/Applications/Android Studio.app
+cask install appcleaner #/Applications/AppCleaner.app
+cask install atom #/Applications/Atom.app
+cask install cyberduck #/Applications/Cyberduck.app
+cask install disk-inventory-x #/Applications/Disk Inventory X.app
+cask install dropbox #/Applications/Dropbox.app
+cask install google-chrome #/Applications/Google Chrome.app
+cask install macdown #/Applications/MacDown.app
+cask install microsoft-office #/Applications/Microsoft Office 2011
+cask install skype #/Applications/Skype.app
+cask install sourcetree #/Applications/SourceTree.app
+cask install virtualbox #/Applications/VirtualBox.app
 # Other commands
 git SShayashi/Brewfile
