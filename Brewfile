@@ -5,10 +5,53 @@ tap argon/mas
 brew mas
 
 tap caskroom/cask
-brew brew-cask
+cask android-file-transfer
+cask android-studio
+cask appcleaner
+cask atom
+cask cyberduck
+cask disk-inventory-x
+cask dropbox
+cask google-chrome
+cask macdown
+cask microsoft-office
+cask skype
+cask sourcetree
+cask virtualbox
 
-# tap homebrew/dupes
-# brew apple-gcc42
+tap homebrew/core
+brew ant
+brew autoconf
+brew eigen
+brew gcc
+brew gdbm
+brew git
+brew gmp
+brew ilmbase
+brew isl
+brew jpeg
+brew libmpc
+brew libpng
+brew libtiff
+brew libyaml
+brew mpfr
+brew node
+brew openexr
+brew openssl
+brew pcre
+brew pkg-config
+brew pyenv
+brew python
+brew python3
+brew readline
+brew ruby
+brew sqlite
+brew tree
+brew vim
+brew wget
+brew xz
+brew zsh-completions
+brew zsh
 
 tap homebrew/python
 brew numpy --with-python3
@@ -19,20 +62,6 @@ brew opencv3
 
 tap rcmdnk/file
 brew brew-file
-
-# Other Homebrew packages
-brew ant
-brew gcc
-brew node
-brew pyenv
-brew python
-brew python3
-brew rbenv-gem-rehash
-brew ruby
-brew sqlite
-brew tree
-brew vim
-brew wget
 
 # App Store applications
 appstore 808647808 ActivityTimer
@@ -47,21 +76,5 @@ appstore 485812721 TweetDeck
 appstore 497799835 Xcode
 appstore 420332190 iSnap
 
-# Main tap repository for caskroom/cask
-tap caskroom/cask
-# Apps installed directly instead of by Cask in caskroom/cask
-cask install android-file-transfer #/Applications/Android File Transfer.app
-cask install android-studio #/Applications/Android Studio.app
-cask install appcleaner #/Applications/AppCleaner.app
-cask install atom #/Applications/Atom.app
-cask install cyberduck #/Applications/Cyberduck.app
-cask install disk-inventory-x #/Applications/Disk Inventory X.app
-cask install dropbox #/Applications/Dropbox.app
-cask install google-chrome #/Applications/Google Chrome.app
-cask install macdown #/Applications/MacDown.app
-cask install microsoft-office #/Applications/Microsoft Office 2011
-cask install skype #/Applications/Skype.app
-cask install sourcetree #/Applications/SourceTree.app
-cask install virtualbox #/Applications/VirtualBox.app
 # Other commands
 git SShayashi/Brewfile
