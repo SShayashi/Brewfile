@@ -2,93 +2,11 @@
 # tap repositories and their packages
 
 tap argon/mas
-
-tap caskroom/cask
-
-tap homebrew/core
-
-tap homebrew/python
-
-tap homebrew/science
-
-tap rcmdnk/file
-
-# Other Homebrew packages
-brew ant
-brew autoconf
-brew brew-file
-brew cairo
-brew curl
-brew docker-machine
-brew eigen
-brew fdk-aac
-brew ffmpeg --with-fdk-aac --with-libvorbis --with-libvpx --with-openjpeg --with-theora --with-opencore-amr
-brew fontconfig
-brew freetype
-brew gcc
-brew gdbm
-brew gettext
-brew git
-brew glib
-brew glide
-brew gmp
-brew go
-brew ilmbase
-brew isl
-brew jasper
-brew jpeg
-brew lame
-brew libffi
-brew libmpc
-brew libogg
-brew libpng
-brew libtiff
-brew libvorbis
-brew libvpx
-brew libyaml
-brew little-cms2
 brew mas
-brew mecab
-brew mecab-ipadic
-brew mpfr
-brew nginx
-brew node
-brew nodebrew
-brew numpy --with-python3
-brew opencore-amr
-brew opencv
-brew opencv3
-brew openexr
-brew openjpeg
-brew openssl
-brew pcre
-brew perl
-brew pixman
-brew pkg-config
-brew pyenv
-brew python
-brew qt
-brew r
-brew rbenv
-brew rbenv-gemset
-brew readline
-brew ruby
-brew ruby-build
-brew sqlite
-brew tbb
-brew texi2html
-brew theora
-brew tree
-brew vim
-brew wget
-brew x264
-brew xvid
-brew xz
-brew yasm
-brew zsh
-brew zsh-completions
 
-# Cask applications
+tap homebrew/bundle
+
+tap homebrew/cask
 cask android-file-transfer
 cask android-studio
 cask appcleaner
@@ -103,24 +21,110 @@ cask skype
 cask sourcetree
 cask virtualbox
 
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
+tap homebrew/core
+brew ant
+brew autoconf
+brew aws-elasticbeanstalk
+brew awscli
+brew cairo
+brew carthage
+brew cmake
+brew curl
+brew dcraw
+brew direnv
+brew docker-machine
+brew eigen
+brew fdk-aac
+brew ffmpeg --with-fdk-aac --with-opencore-amr --with-openjpeg --with-libvorbis --with-libvpx --with-theora
+brew fontconfig
+brew freetype
+brew gcc
+brew gdbm
+brew gettext
+brew git
+brew glib
+brew glide
+brew gmp
+brew go
+brew htmldoc
+brew icu4c
+brew ilmbase
+brew imagemagick
+brew isl
+brew jasper
+brew jpeg
+brew lame
+brew libevent
+brew libffi
+brew libmemcached
+brew libmpc
+brew libogg
+brew libpng
+brew libtiff
+brew libtool
+brew libvorbis
+brew libvpx
+brew libyaml
+brew little-cms2
+brew markdown
+brew mecab
+brew mecab-ipadic
+brew memcached
+brew mpfr
+brew mysql
+brew nasm
+brew nginx
+brew nodebrew
+brew numpy --with-python3
+brew opencore-amr
+brew opencv
+brew openexr
+brew openjpeg
+brew openssl
+brew openssl@1.1
+brew pcre
+brew peco
+brew pipenv
+brew pixman
+brew pkg-config
+brew pyenv
+brew pyenv-virtualenv
+brew rbenv
+brew readline
+brew redis@3.2
+brew ruby-build
+brew sqlite
+brew texi2html
+brew theora
+brew tig
+brew ufraw
+brew x264
+brew xvid
+brew xz
+brew yasm
+brew zbar
+brew zsh-completions
 
-#cask dockertoolbox (!)
+tap homebrew/python
+
+tap homebrew/science
+
+tap homebrew/services
+
+tap rcmdnk/file
+brew brew-file
+
+tap caskroom/cask
 
 # App Store applications
-appstore 808647808 ActivityTimer
-appstore 409183694 Keynote
-appstore 539883307 LINE
-appstore 715768417 Microsoft Remote Desktop
-appstore 409203825 Numbers
-appstore 823766827 OneDrive
-appstore 409201541 Pages
-appstore 439654198 SimpleMind Free
-appstore 803453959 Slack
-appstore 485812721 TweetDeck
-appstore 497799835 Xcode
-appstore 420332190 iSnap
+appstore 668208984 GIPHY CAPTURE (4.0)
+appstore 539883307 LINE (5.8.0)
+appstore 409201541 Pages (7.1)
+appstore 866773894 Quiver (3.1.3)
+appstore 803453959 Slack (3.1.1)
+appstore 585829637 Todoist (7.0.12)
+appstore 1147396723 WhatsApp (0.3.33)
+appstore 497799835 Xcode (9.4.1)
 
 # Other commands
 git SShayashi/Brewfile
